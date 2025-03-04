@@ -32,23 +32,12 @@
 
 ![image](https://github.com/user-attachments/assets/034435cb-9ab3-4831-9ca8-921815f058a4)
 
+![image](https://github.com/user-attachments/assets/0358b431-deab-491d-a769-9c139471cca9)
 
+![image](https://github.com/user-attachments/assets/61d40c1c-bf8a-4553-b2fc-38f3cf96e67c)
+
+![image](https://github.com/user-attachments/assets/1207e8e3-2026-47ff-b7a0-4bf57e9b34c7)
 
 
 # Project Introduction
-- **RA0E1_project1**:e2studio开发RA0E1(1)---GPIO输出
-- **CSDN Blog**:[https://blog.csdn.net/xinzuofang/article/details/138591646](https://blog.csdn.net/xinzuofang/article/details/138591646)
-- **Video**:[https://www.bilibili.com/video/BV1Yr421J7sE/](https://www.bilibili.com/video/BV1Yr421J7sE/)
 
-
-本篇文章主要介绍如何使用e2studio对瑞萨单片机进行GPIO输出，并以LED显示。
-
-This article mainly introduces how to use e2studio to perform GPIO output on a Renesas microcontroller, with an LED display as an example.
-
-
-
-- **RA0E1_project2**:e2studio开发RA0E1(2)---GPIO输入检测
-- **CSDN Blog**:[https://blog.csdn.net/xinzuofang/article/details/138639249](https://blog.csdn.net/xinzuofang/article/details/138639249)
-- **Video**:[https://www.bilibili.com/video/BV1wM4m1o7de](https://www.bilibili.com/video/BV1wM4m1o7de)
-
-本篇文章主要介绍如何使用e2studio对瑞萨单片机进行GPIO输出，并以LED显示。
