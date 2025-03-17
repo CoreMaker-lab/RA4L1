@@ -107,16 +107,25 @@ GPT（通用 PWM 计时器）模块是一个高精度定时器，用于计数事
 
 
 
+- **RA4L1_project9**:e2studio开发RA4L1(9)----定时器GPT配置输入捕获
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146304853](https://coremaker.blog.csdn.net/article/details/146304853)
+- **Video**:[https://www.bilibili.com/video/BV1G5Q3Y9ECC/](https://www.bilibili.com/video/BV1G5Q3Y9ECC/)
+
+
+本文将探讨如何在 Renesas RA 系列微控制器上使用 GPT（通用定时器）模块来配置输入捕获功能。输入捕获是定时器的一项重要功能，它允许我们捕获外部信号（如脉冲或波形）的时间戳，广泛应用于频率计数、脉冲宽度测量以及其他需要精确时间记录的应用。
+
+
+- **RA4L1_project10**:e2studio开发RA4L1(10)----定时器AGT输出PWM
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146304875](https://coremaker.blog.csdn.net/article/details/146304875)
+- **Video**:[https://www.bilibili.com/video/BV1W8QaYPEko/](https://www.bilibili.com/video/BV1W8QaYPEko/)
 
 
 
+ AGT模块是RA MCU（微控制单元）系列中的一个定时器外设，提供灵活的计时和事件捕获功能，能够满足多种应用场景中的定时和控制需求。它支持16位和32位定时器，并具有多种工作模式，适用于需要高精度时间控制和事件捕获的应用。  它广泛应用于定时控制、信号测量、PWM 生成等应用，尤其适用于电机控制、LED 调光、PWM 伺服驱动和 ADC 触发等场景。 
 
-
-
-
-
-
-
+- **RA4L1_project11**:e2studio开发RA4L1(11)----AGT定时器频率与占空比的设置
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146304897](https://coremaker.blog.csdn.net/article/details/146304897)
+- **Video**:[https://www.bilibili.com/video/BV1WSQhYaE32/](https://www.bilibili.com/video/BV1WSQhYaE32/)
 
 
 
