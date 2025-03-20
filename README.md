@@ -170,3 +170,122 @@ printf and sprintf are commonly used output functions in the C language, widely 
 
 UART (Universal Asynchronous Receiver/Transmitter) communication is a commonly used asynchronous data transmission method, widely applied in embedded systems for data exchange between devices. This article focuses on how to receive data via UART, covering initialization configuration, data reception process, common issue troubleshooting, and practical code examples for implementing UART data reception. The goal of this blog is to help developers quickly grasp the fundamentals and techniques of UART reception, enabling flexible application in real-world projects.
 
+
+
+
+- **RA4L1_project14**:e2studio开发RA4L1(14)----IIC驱动水压计LPS28DFW
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146398269](https://coremaker.blog.csdn.net/article/details/146398269)
+- **Video**:[https://www.bilibili.com/video/BV1fCXKYpEhu/](https://www.bilibili.com/video/BV1fCXKYpEhu/)
+
+本篇文章主要介绍如何使用e2studio对瑞萨进行IIC配置，使用 LPS28DFW 传感器来读取数据，读取到的数据会被转换为适当的单位并通过串行通信输出。
+
+This article mainly introduces how to configure I²C for Renesas using e²studio and how to read data from the LPS28DFW sensor. The acquired data will be converted into appropriate units and output via serial communication.
+
+
+- **RA24L1_project15**:e2studio开发RA4L1(15)----配置RTC时钟及显示时间
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146398859](https://coremaker.blog.csdn.net/article/details/146398859)
+- **Video**:[https://www.bilibili.com/video/BV19iXuY9Ekp/](https://www.bilibili.com/video/BV19iXuY9Ekp/)
+
+
+本文将详细讲解如何借助e2studio来对瑞萨微控制器进行实时时钟（RTC）的设置和配置，以便实现日历功能和一秒钟产生的中断，从而通过串口输出实时数据。
+实时时钟（RTC）模块是一种时间管理外设，主要用于记录和控制日期和时间。与常见的微控制器（MCU）中的定时器不同，RTC时钟提供了两种计时方式：日期模式和计时模式。RTC时钟的常用功能包括设置时间、设定闹钟、配置周期性中断以及启动或停止操作。
+通过使用e2studio工具，我们可以轻松地对瑞萨微控制器进行RTC配置，从而实现高精度的时间和日期管理。在本文中，我们将重点讨论如何设置RTC时钟日历和产生一秒钟的中断，使得串口能够实时打印数据。
+
+This article provides a detailed explanation of how to configure and set up the Real-Time Clock (RTC) on a Renesas microcontroller using e²studio, enabling calendar functionality and generating one-second interrupts to output real-time data via serial communication.
+
+The RTC module is a time management peripheral primarily used for tracking and controlling date and time. Unlike general-purpose timers in microcontrollers (MCUs), the RTC clock provides two timing modes: date mode and time mode. Common RTC functionalities include setting time, configuring alarms, enabling periodic interrupts, and controlling start/stop operations.
+
+By leveraging e²studio, we can easily configure the RTC on Renesas microcontrollers to achieve high-precision time and date management. In this article, we will focus on setting up the RTC calendar and generating one-second interrupts, allowing real-time data output via serial communication.
+
+
+- **RA4l1_project16**:e2studio开发RA4L1(16)----ADC单通道采集电压
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146399148](https://coremaker.blog.csdn.net/article/details/146399148)
+- **Video**:[https://www.bilibili.com/video/BV1ARQdYNEYp/](https://www.bilibili.com/video/BV1ARQdYNEYp/)
+
+
+本篇文章主要介绍如何使用e2studio对瑞萨单片机进行ADC单通道采集电压。
+
+
+This article focuses on how to use e²studio to configure and perform single-channel ADC voltage acquisition on a Renesas microcontroller.
+
+- **RA4L1_project17**:e2studio开发RA4L1(17)----ADC扫描多通道采样
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146399438](https://coremaker.blog.csdn.net/article/details/146399438)
+- **Video**:[https://www.bilibili.com/video/BV1ARQdYNEYp/](https://www.bilibili.com/video/BV1ARQdYNEYp/)
+
+在嵌入式系统中，ADC（模数转换器）是一个非常重要的组件，它将模拟信号转换为数字信号。为了提高采样效率和扩展应用，瑞萨MCU支持多通道扫描模式，允许同时采集多个模拟信号。在本文中，将在上篇文章基础上探讨如何配置ADC模块进行多通道扫描，并采集来自不同的输入模拟信号。
+
+In embedded systems, the ADC (Analog-to-Digital Converter) is a crucial component that converts analog signals into digital signals. To improve sampling efficiency and expand application scenarios, Renesas MCUs support multi-channel scan mode, allowing simultaneous acquisition of multiple analog signals.
+
+Building on the previous article, this article explores how to configure the ADC module for multi-channel scanning and collect data from different analog input signals.
+
+- **RA4L1_project18**:e2studio开发RA4L1(18)----看门狗WDT
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146399906](https://coremaker.blog.csdn.net/article/details/146399906)
+- **Video**:[https://www.bilibili.com/video/BV1o9QfYaEcB/](https://www.bilibili.com/video/BV1o9QfYaEcB/)
+
+
+本文主要阐述了如何借助e2studio工具对瑞萨独立看门狗WDT进行配置设置，同时设置RTC时钟产生每秒的周期性中断，并通过串口输出观察独立看门狗IWDT的计数情况。主要介绍 RA 系列 MCU 的看门狗定时器（WDT），包括其功能、配置方法、API 说明及示例代码。看门狗定时器主要用于检测系统异常，防止程序陷入死循环或卡死，从而 提高系统稳定性。
+看门狗定时器（WDT）是一种超时保护机制，当 MCU 在一定时间内没有刷新（喂狗）时，WDT 会触发系统 复位 或 中断，确保系统能够恢复运行。
+
+This article explains how to configure and set up the Independent Watchdog Timer (IWDT) on a Renesas MCU using the e²studio tool. It also covers configuring the RTC clock to generate periodic one-second interrupts and observing the IWDT counter through serial output.
+
+The article primarily introduces the Watchdog Timer (WDT) in the RA series MCUs, including its functionality, configuration methods, API usage, and example code. The WDT is designed to detect system anomalies and prevent the program from getting stuck in infinite loops or crashes, thereby improving system stability.
+
+The Watchdog Timer (WDT) is an overflow protection mechanism that triggers a system reset or interrupt when the MCU fails to refresh (feed the watchdog) within a specified time, ensuring the system can recover and continue operation.
+
+
+- **RA4l1_project19**:e2studio开发RA4L1(19)----独立看门狗IWDT
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146400517](https://coremaker.blog.csdn.net/article/details/146400517)
+- **Video**:[https://www.bilibili.com/video/BV1YcXFYoE7L/](https://www.bilibili.com/video/BV1YcXFYoE7L/)
+
+本文主要阐述了如何借助e2studio工具对瑞萨独立看门狗IWDT进行配置设置，同时设置RTC时钟产生每秒的周期性中断，并通过串口输出观察独立看门狗IWDT的计数情况。
+配置看门狗定时器以提高系统稳定性，防止系统长时间处于死循环。
+
+
+This article explains how to configure the Independent Watchdog Timer (IWDT) on a Renesas MCU using the e²studio tool. It also covers setting up the RTC clock to generate periodic one-second interrupts and using serial output to monitor the IWDT counter.
+
+Configuring the watchdog timer helps enhance system stability by preventing the system from getting stuck in infinite loops for an extended period.
+
+
+- **RA4L1_project20**:e2studio开发RA4L1(20)----电容触摸配置(1)
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146400850](https://coremaker.blog.csdn.net/article/details/146400850)
+- **Video**:[https://www.bilibili.com/video/BV1ZuQfYaE4Z/](https://www.bilibili.com/video/BV1ZuQfYaE4Z/)
+
+
+这篇文档将创建一个使用 e2 studio 集成 QE 的电容式触摸应用示例，通过触摸按键进行LED点亮。
+
+This document will demonstrate how to create a capacitive touch application using e² studio integrated with QE. The example will implement touch key control to toggle an LED.
+
+
+- **RA4L1_project21**:e2studio开发RA4L1(21)----电容触摸配置(2)
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146401271](https://coremaker.blog.csdn.net/article/details/146401271)
+- **Video**:[https://www.bilibili.com/video/BV1Y6QZYpEFd/](https://www.bilibili.com/video/BV1Y6QZYpEFd/)
+
+这篇文档将在上篇文章基础上修改电容触摸配置。
+
+
+This document builds upon the previous article to modify the capacitive touch configuration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
