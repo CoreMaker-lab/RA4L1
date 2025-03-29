@@ -1,0 +1,65 @@
+***** 2025/03/29 16:01:42 *****
+QE Version                                        :4.1.0.v20250123-0520
+Project Path                                      :C:\Users\a8456\e2_studio\workspace_5.8\RA4L1_TESTDEMO
+Configuration File                                :RA4L1_TESTDEMO
+IDE                                               :e2 studio with Emulator
+Emulator                                          :
+MCU                                               :RA4L1 R7FA4L1BD4CFP
+<< METHOD 0 >>
+[Button(self) 0]
+TS                                                : TS00,
+[Button(self) 1]
+TS                                                : TS01,
+
+<<<< Tuning Type : Normal >>>>
+System Clock Frequency (MHz)                      :32.000
+PCLKB Frequency (MHz)                             :16.000
+CTSU Operating Frequency (MHz)                    :16.000
+Operating Voltage (V)                             :3.300
+
+---------- Phase1 ----------
+<< METHOD 0 >>
+[TS00]
+Measurement Value                                 : 4648
+Resistance Value (ohm)                            : 560
+Parasitic Capacitance (pF)                        : 32.27778
+Sensor Drive Pulse Frequency (MHz)                : 1.0
+
+[TS01]
+Measurement Value                                 : 4946
+Resistance Value (ohm)                            : 560
+Parasitic Capacitance (pF)                        : 34.34722
+Sensor Drive Pulse Frequency (MHz)                : 1.0
+
+
+---------- Phase2 ----------
+<< METHOD 0 >>
+[TS00]
+Sensor Drive Pulse Frequency (MHz)                : 1.0
+CTSUSNUM                                          : 15
+CTSUSDPA                                          : 15
+CTSUSO                                            : 239
+
+[TS01]
+Sensor Drive Pulse Frequency (MHz)                : 1.0
+CTSUSNUM                                          : 15
+CTSUSDPA                                          : 15
+CTSUSO                                            : 258
+
+
+---------- Phase3 ----------
+<< METHOD 0 >>
+[Button(self) 0]
+  << TS00 >>
+  Measurement Value (Off)                         : 11313
+  Measurement Value (On)                          : 65333
+  Threshold                                       : 32412
+  Hysteresis                                      : 1620
+
+[Button(self) 1]
+  << TS01 >>
+  Measurement Value (Off)                         : 11494
+  Measurement Value (On)                          : 63174
+  Threshold                                       : 31008
+  Hysteresis                                      : 1550
+
